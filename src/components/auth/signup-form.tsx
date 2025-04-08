@@ -166,7 +166,7 @@ const SignUpForm = () => {
         if (from) {
             setIsEmailOpen(false);
         }
-    }, []);
+    }, [from]);
 
 
     return (

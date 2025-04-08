@@ -182,7 +182,7 @@ const SignInForm = () => {
     if (from) {
       setIsEmailOpen(false);
     }
-  }, []);
+  }, [from]);
 
   return (
     <div className="flex flex-col text-center w-full">
@@ -273,7 +273,7 @@ const SignInForm = () => {
               </Button>
             </div>
             <div className="pt-12 text-muted-foreground text-sm">
-                            <span>Don't have an account?</span> <Link href="/auth/signup" className="text-foreground">Register</Link>
+                            <span>Don&apos;t have an account?</span> <Link href="/auth/signup" className="text-foreground">Register</Link>
                         </div>
           </motion.div>
         </div>
